@@ -3,4 +3,10 @@
     background-color: black;
     opacity: 50%;
     color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.ul  {
+
 }
