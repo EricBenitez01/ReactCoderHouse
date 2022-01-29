@@ -1,12 +1,8 @@
 .roberto{
-    text-decoration: none;
-    background-color: black;
-    opacity: 50%;
-    color: blanchedalmond;
+    background-color: rgb(69, 36, 255);
+    opacity: 100%;
+    color: rgb(245, 47, 218);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
-}
-.ul  {
-
 }

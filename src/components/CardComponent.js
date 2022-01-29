@@ -1,25 +1,26 @@
-import React from "react";
-import { Card, CardBody, CardTitle, CardSubtitle, CardText} from reactstrap;
-
-
-<div>
-  <Card>
-    <CardBody>
-      <CardTitle tag="h5">
-        Card title
-      </CardTitle>
-      <CardSubtitle
-        className="mb-2 text-muted"
-        tag="h6"
-      >
-        Card subtitle
-      </CardSubtitle>
-      <CardText>
-        Some quick example text to build on the card title and make up the bulk of the card's content.
-      </CardText>
-      <Button>
-        Button
-      </Button>
-    </CardBody>
-  </Card>
-</div>
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import "./CardComponent.css"
+const CardComponent = ({name, img, description}) => {
+    return(
+      <div clasName="card">
+    <Card sx={{ maxWidth: 345 }}>
+      <CardMedia component='img' height='340' image={img} alt='green iguana' />
+       <CardContent>
+         <Typography gutterBottom variant="h5" component="div">
+           {name} <br/>
+           {description}
+         </Typography>
+         <Typography variant="body2" color="text.secondary">
+           
+         </Typography>
+       </CardContent>
+     </Card>
+     </div>
+   )
+    
+}
+export default  CardComponent;

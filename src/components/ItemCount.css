@@ -1,0 +1,7 @@
+.contador{
+    margin-top: 100px;
+}
+.par{
+    display: flex;
+    justify-content: center;
+}

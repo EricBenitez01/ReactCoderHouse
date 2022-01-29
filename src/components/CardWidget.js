@@ -1,8 +1,13 @@
 import React from "react";
-<script defer src="/your-path-to-fontawesome/js/all.js"></script>
+import "./CardWidget.css";
+<script defer src="/your-path-to-fontawesome/js/all.js"></script>;
+
 function CardWidget () {
     return (
-        <div><i class="fas fa-shopping-cart" alt="logo" width={30} style={{color: "white"}}/> </div>
+        <div className="carrito">
+            <img  src="https://image.flaticon.com/icons/png/512/107/107831.png" alt="carrito" width={30} ></img>
+           {/* <i class="fas fa-shopping-cart" alt="logo" width={30} /> */}
+        </div>
         
         
     )
